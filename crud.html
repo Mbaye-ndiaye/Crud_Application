@@ -1,0 +1,58 @@
+<h1 class="text-center mt-3">CRUD Application</h1>
+<form action="" id="student-form">
+    <div class="container">
+        <div class="row">
+            <div class=" col-10 col-md-8 ">
+                <label for="firstName">
+                    firstName
+                </label>
+                <input type="text" class="form-control" placeholder="Enter First Name" id="firstName">
+            </div>
+            <div class=" col-10 col-md-8 mt-3">
+                <label for="LastName">
+                    LastName
+                </label>
+                <input type="text" class="form-control" placeholder="Enter Last Name" id="LastName">
+            </div>
+            <div class=" col-10 col-md-8 mt-3 mb-3">
+                <label for="text">
+                    Roll No
+                </label>
+                <input type="text" class="form-control" placeholder="Enter Roll No" id="rollNO">
+            </div>
+       
+    <div class="col-10">
+        <input type="submit " class="btn btn-success add-btn " value="submit" id="submit">
+    </div> 
+
+
+<div class="col-10 mt-5">
+<table class="table table-striped table-dark">
+    <thead>
+      <tr>
+        <th>firstName</th>
+        <th>LastName</th>
+        <th>Roll NO</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="student-list">
+        <tr>
+            <td>Dear</td>
+            <td>Programmer</td>
+            <td>25</td>
+            <td>
+                <a href="#" class="btn btn-warning btn-sm edit">Edit</a>
+                <a href="#" class="btn btn-danger btn-sm delete">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+</div>
+        
+</div>
+</div> 
+</div>
+</form>

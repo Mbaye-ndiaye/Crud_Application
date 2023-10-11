@@ -1,0 +1,9 @@
+body{
+    background: rgba(0, 0, 0, 0.89);
+}
+*{
+    color: white;
+}
+#update{
+    display: none;
+}
